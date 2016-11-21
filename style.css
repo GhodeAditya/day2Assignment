@@ -12,12 +12,15 @@ body {
 
 #pageContent {
     width: 100%;
+    background-color: #dbe2ea;
 }
 
 #mainWraper {
     width: 85%;
     text-align: center;
     margin: auto;
+    background-color: #fff;
+    padding-bottom: 15%;
 }
 
 
@@ -55,9 +58,10 @@ body {
 /************ Middle section left ***********/
 
 .subWrapper {
-    width: 55%;
-    float: left;
-    margin-top: 60px;
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    padding-top: 60px;
 }
 
 .subWrapper h3 {
@@ -109,8 +113,8 @@ p {
 /************ Middle section Right ***********/
 
 .secSection {
-    width: 35%;
-    float: right;
+    margin: auto;
+    width: 95%;
     margin-top: 60px;
 }
 
@@ -168,9 +172,45 @@ p {
 }
 
 .sideText {
-    text-align: left;
     font-family: 'RobotoCondensed-Regular';
     font-weight: 300;
     font-style: normal;
     margin-left: 120px;
+    clear: both;
+}
+
+
+/********** table css **********/
+
+table#bottmTable {
+    width: 100%;
+}
+
+th {
+    font-family: 'RobotoCondensed-Regular';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 23px;
+    letter-spacing: 0.0625em;
+}
+
+td {
+    font-family: 'RobotoCondensed-Regular';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 23px;
+    margin-right: 10px;
+    letter-spacing: 0.0625em;
+    border-bottom: 0.0625em solid #cac8c8;
+}
+
+.sideText p {
+    margin: 0;
+    padding-left: 145px;
 }
